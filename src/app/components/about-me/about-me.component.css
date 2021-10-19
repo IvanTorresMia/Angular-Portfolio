@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.header-2-home {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.header-2-home section {
+   color: #fadddb;
+   padding: 15px;
+   text-align: center;
+   margin: 10px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px 5px #201C65;
+   background-color: #101357;
+
+}
+.header-2-home h2, h5 {
+  color: #fda099;
+  padding-top: 15px;
+ }
+
+.left-home1 section {
+    height: 600px;
+}
+
+.right-home2 {
+    height: 600px;
+}
+
+.right-2-top {
+   height: 600px;
+}
+
+.right-2-top div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.right-2-top p {
+    color: #fadddb;
+    margin-top: 30px;
+}
+
+.right-2-top img {
+    margin: 10px 10px 0 10px;
+    max-width: 270px;
+    max-height: 240px;
+    min-width: 270px;
+    min-height: 240px;
+}
+
+.left-info1 {
+    display: flex;
+    text-align: left;
+}
+
+.left-info1 div {
+    padding: 0px 30px 30px 30px;
+    margin: 30px;
+}
+
+.left-info1 h2 {
+      font-family: 'Ubuntu', sans-serif;
+}
+
+.left-info2 {
+    padding: 25px;
+    margin: 0px 30px 30px 30px;
+}
+
+.left-info2 p {
+  /* margin-top: 10px; */
+  padding: 15px 45px 45px 45px;
+}
+
+
+
+
+

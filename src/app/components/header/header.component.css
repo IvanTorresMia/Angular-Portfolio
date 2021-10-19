@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.social-info {
+    display: none;
+    opacity: 0;
+    transition: 1s;
+    margin-left: 14px;
+}
+
+.social-cards-section {
+    display: flex;
+}
+
+.header-wrapper {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header-container {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+.left-header {
+    color: #D3EF8F;
+    padding: 20px;
+    text-align: left;
+}
+.left-header p {
+    margin-top: 40px;
+}
+
+.img-header img {
+    width: 600px;
+}
+
+.img-header p {
+    margin-top: 5px;
+}
+
+.img-header {
+text-align: right;
+padding-right:7%;
+color: #413BCA;
+}
+
+.header-wrapper {
+    text-align: center;
+}
+
+.social-media-header {
+    border-top: 4px solid #D3EF8F;
+    padding-top: 5px;
+    margin-top: 40px;
+}
+
+.social-cards-section img {
+    width: 80px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.social-card:first-of-type img {
+    padding-left: 15px !important;
+    padding-bottom: 10px !important;
+}
+
+.social-card:last-of-type img {
+    width: 70px;
+    padding: 0px !important;
+}
+
+
+.social-card {
+    position: relative;
+    transition: 1s;
+}
+
+.social-cards-section a:hover + .social-info {
+  position: absolute;
+  width: 160px;
+  opacity: 100%;
+  display: block !important;
+  transition: 1s;
+}
+
+.social-cards-section a:hover + .social-info p {
+    opacity: 100%;
+    transition: 1s;
+  }
+
+
+.social-info p {
+    opacity: 0;
+    margin-top: 5px;
+    transition: 1s;
+  }
+
+
+.typing-demo {
+    width: 17ch;
+    animation: typing 3.5s steps(22), blink .5s step-end infinite alternate;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    /* font-family: monospace; */
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+
+
